@@ -1,0 +1,35 @@
+.skills-container {
+    width: 320px;
+    border: solid 1px #dddfe2;
+    border-radius: 1%;
+    background-color: #FFF;
+}
+
+#line {
+    width: 300px;
+    color: #dddfe2;
+}
+
+.info {
+    display: flex;
+    justify-items: self-end;
+    margin: 2px;
+}
+
+.info-header {
+    display: flex;
+    justify-content: baseline;
+}
+
+.info-header h3 {
+    margin: 20px;
+}
+
+.item-container {
+    /* display: inline-block; */
+}
+
+.item {
+    cursor: pointer;
+    border-radius: 5%;
+}

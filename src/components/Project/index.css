@@ -1,0 +1,21 @@
+.project {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.project-item {
+    margin: 10px;
+    margin-left: 50px
+}
+
+.projects {
+    width: 810px;
+    background-color: #FFF;
+    border-radius: 0.5%;
+    border: solid 1px #dddfe2;
+}
+
+.Project {
+    margin-left: 21px;
+}

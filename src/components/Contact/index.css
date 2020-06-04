@@ -1,0 +1,57 @@
+.contact-container {
+    width: 320px;
+    border: solid 1px #dddfe2;
+    border-radius: 1%;
+    background-color: #FFF;
+}
+
+#line {
+    width: 250px;
+    color: #dddfe2;
+    font-size: 0.5px;
+}
+
+.info {
+    display: flex;
+    justify-items: self-end;
+    margin: 2px;
+}
+
+.info-header {
+    display: flex;
+}
+
+.info-header span {
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.info-header h3 {
+    margin: 20px;
+    font-size: 18px;
+}
+
+.info a {
+    color: #385898;
+    padding-left: 5px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.info p {
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+.cer {
+    height: 300px;
+    padding-top: 10px;
+}
+
+.info-container {
+    margin: 5px;
+}
+
+.bio p {
+    font-size: 12px;
+}
