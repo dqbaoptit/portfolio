@@ -1,4 +1,8 @@
+
 import React from "react";
+import {message} from 'antd'
+import {MailOutlined} from '@ant-design/icons'
+import './index.css'
 
 export default class MyForm extends React.Component {
   constructor(props) {
@@ -8,23 +12,46 @@ export default class MyForm extends React.Component {
       status: ""
     };
   }
-
   render() {
-    const { status } = this.state;
     return (
-      <form
-        onSubmit={this.submitForm}
-        action="https://formspree.io/mgenkzqp"
-        method="POST"
-      >
-        <!-- add your custom form HTML here -->
-        <label>Email:</label>
-        <input type="email" name="email" />
-        <label>Message:</label>
-        <input type="text" name="message" />
-        {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
-        {status === "ERROR" && <p>Ooops! There was an error.</p>}
-      </form>
+      <div className="card-connect">
+            <div className="card-header">
+                <div className="info-header">
+                    <MailOutlined />
+                    <h3>Connect</h3>
+                </div>
+            </div>
+            <hr className="card-line"/>
+            <div class="container-contact100">
+              <div class="wrap-contact100">
+                <form class="contact100-form validate-form"
+                  onSubmit={this.submitForm}
+                  action="https://formspree.io/mgenkzqp"
+                  method="POST"
+                >
+                  <span class="contact100-form-title">
+                  <strong>Have a question or want to work together ?</strong>
+                  </span>
+                  <div class="wrap-input100 validate-input" data-validate = "Please enter your email: e@a.x">
+                    <input class="input100" type="text" name="email" placeholder="E-mail" />
+                    <span class="focus-input100"></span>
+                  </div>
+                  <div class="wrap-input100 validate-input" data-validate = "Please enter your message">
+                    <textarea class="input100" name="message" placeholder="Your Message"></textarea>
+                    <span class="focus-input100"></span>
+                  </div>
+                  <div class="container-contact100-form-btn">
+                    <button class="contact100-form-btn">
+                      <span>
+                        <i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
+                        Send me
+                      </span>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+      </div>
     );
   }
 
@@ -39,9 +66,12 @@ export default class MyForm extends React.Component {
       if (xhr.readyState !== XMLHttpRequest.DONE) return;
       if (xhr.status === 200) {
         form.reset();
+        message.success("Cảm ơn vì đã để lại lời nhắn <3")
         this.setState({ status: "SUCCESS" });
       } else {
         this.setState({ status: "ERROR" });
+        message.error("Đã có lỗi, bạn kiểm tra lại đi nào <3 .")
+
       }
     };
     xhr.send(data);

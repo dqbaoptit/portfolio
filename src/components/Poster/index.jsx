@@ -25,6 +25,8 @@ export default (props)=>{
                         <div align="left">
                             <div className="name">
                                 <a href="/"><strong>Dương Quốc Bảo</strong></a>
+                            </div>
+                            <div className="status">
                                 <p>đã cập nhật một sự kiện trong đời.</p>
                             </div>
                             <p className="time"><strong>{props.time} </strong></p>

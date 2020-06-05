@@ -1,7 +1,6 @@
 import React from 'react'
 import Earth from '../Contact/icons';
-import logo from '../../assests/ptitlogo.png'
-import {FacebookOutlined,BookOutlined,BankOutlined,PhoneOutlined,GooglePlusOutlined,InstagramOutlined,GithubOutlined,LinkedinFilled} from '@ant-design/icons'
+import {CodeOutlined,FacebookOutlined,BookOutlined,BankOutlined,PhoneOutlined,GooglePlusOutlined,InstagramOutlined,GithubOutlined,LinkedinFilled} from '@ant-design/icons'
 
 import './index.css'
 
@@ -20,7 +19,7 @@ export default () =>{
             <div className="card-content">
                 <div className="content-items" >
                     <div className="content-item" align="left">
-                        <img src={logo} alt="logo" width="20%"/>
+                        <CodeOutlined style={{fontSize:40}}/>
                         <p>Học Công nghệ thông tin tại <strong> Học viện Công nghệ Bưu chính Viễn thông cơ sở tại TP.HCM </strong></p>
                     </div>
                     <hr />

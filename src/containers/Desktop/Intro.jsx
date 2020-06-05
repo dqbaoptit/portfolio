@@ -1,7 +1,8 @@
 import React from 'react';
-import Header from './components/Header';
-import avatar from './assests/avt.png';
-import Intro from './components/Intro';
+import Header from '../../components/Header';
+import avatar from '../../assests/avt.png';
+import Intro from '../../components/Intro';
+import Footer from '../../components/Footer';
 export default ()=>{
     return(
 	<div align="center">
@@ -15,6 +16,9 @@ export default ()=>{
             <div align="center" className="Intro">
                 <Intro />
             </div>
+        </div>
+        <div className="Footer">
+            <Footer />
         </div>
         </div>
     )

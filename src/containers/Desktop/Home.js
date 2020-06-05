@@ -1,11 +1,12 @@
 import React from 'react';
-import Skills from './components/Skills'
-import Contact from './components/Contact'
+import Skills from '../../components/Skills'
+import Contact from '../../components/Contact'
 // import Nav from './components/Nav'
 import { BackTop } from 'antd';
-import Header from './components/Header'
-import Poster from './components/Poster';
-import avt from './assests/avt.png';
+import Header from '../../components/Header'
+import Poster from '../../components/Poster';
+import Footer from '../../components/Footer';
+import avt from '../../assests/avt.png';
 
 import './index.css'
 function App() {
@@ -26,6 +27,9 @@ return (
 					</div>
 					<div className="Skills"> 
 						<Skills />
+					</div>
+					<div align className="Footer-home">
+						<Footer />
 					</div>
 				</div>
 				<div className="main-right">

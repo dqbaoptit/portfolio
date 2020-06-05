@@ -2,12 +2,17 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100vw;
 }
 
 .Header {
     border-radius: 5%;
-    width: 805px;
-    margin-left: 26px;
+    width: 840px;
+    margin-left: 13px;
 }
 
 .Contact {
@@ -27,6 +32,10 @@ body {
     justify-content: space-evenly;
 }
 
+.projects {
+    width: 810px;
+}
+
 .mainn {
     display: flex;
     justify-content: space-around;
@@ -41,8 +50,20 @@ body {
 
 .post {
     margin-top: 10px;
+    width: 460px;
 }
 
 .root {
     width: 800px;
+}
+
+.Footer-home {
+    margin-top: 40px;
+    margin-left: 19%;
+    width: 320px;
+}
+
+.Footer {
+    margin-left: 4%;
+    width: 815px;
 }

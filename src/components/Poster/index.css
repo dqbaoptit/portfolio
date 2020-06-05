@@ -36,8 +36,6 @@
 
 .container {
     background-color: #FFF;
-    width: 460px;
-    /* height: 600px; */
     border-radius: 1%;
     border: solid 1px #dddfe2;
 }
@@ -48,4 +46,8 @@
 
 .content-study {
     font-size: 13px;
+}
+
+.status {
+    margin-left: 10px;
 }

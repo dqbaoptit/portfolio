@@ -33,6 +33,7 @@ export default (props)=>{
                     <Link to='/'><Radio.Button  id="button-tab" value="small"><strong>Dòng thời gian</strong></Radio.Button></Link>
                     <Link to='/intro/'> <Radio.Button value="medium" id="button-tab"><strong>Giới thiệu</strong></Radio.Button></Link>
                     <Link to='/projects/'><Radio.Button value="large" id="button-tab"><strong>Dự án cá nhân</strong></Radio.Button></Link>
+                    <Link to='/connect/'><Radio.Button value="large" id="button-tab"><strong>Connect</strong></Radio.Button></Link>
                 </Radio.Group>
         </div>
         </div>

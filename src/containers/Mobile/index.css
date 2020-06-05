@@ -1,0 +1,14 @@
+.m-Header {
+    width: 100%;
+}
+
+.m-post {
+    margin-top: 20px;
+}
+
+.m-Contact {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 1px #dddfe2;
+    border-radius: 1%;
+}

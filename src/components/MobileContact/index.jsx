@@ -1,28 +1,38 @@
 import React from 'react';
-import {FacebookOutlined,BankOutlined,InstagramOutlined,GithubOutlined,LinkedinFilled} from '@ant-design/icons'
+import {GooglePlusOutlined,PhoneOutlined,BookOutlined,FacebookOutlined,BankOutlined,InstagramOutlined,GithubOutlined,LinkedinFilled} from '@ant-design/icons'
 import Light from '../../assests/light.png';
-import Earth from './icons';
+import Earth from '../Contact/icons';
 import './index.css'
 
 export default ()=>{
     return(
-        <div className="contact-container">
+        <div className="m-contact-container">
             <div className="info-header">
                 <span>
                     <Earth />
                 </span>
                 <h3>Giới thiệu</h3>
             </div>
-            <div align="center" className="bio">
-                <p>05 - 04 - 2000</p>
-                <p>Fresher Web Front-end Developer </p>
-                <p>Mình muốn học hỏi và trau dồi kinh nghiệm để phục vụ cho công việc.</p> <p> Mục tiêu trở thành Full-stack Developer.</p>
-            </div>
-            <hr id="line" />
             <div className="info-container">
-                <div className="info">
+                <div className="info" align="left">
                     <BankOutlined />
-                    <p>Học Information Technology tại <strong> Học viện Công nghệ Bưu chính Viễn thông cơ sở tại TP.HCM </strong></p>
+                    <p>Học Information Technology tại <strong> Học viện Công nghệ Bưu chính Viễn thông cơ sở tại TP.HCM </strong> khoá <strong>2018 - 2023</strong></p> 
+                </div>
+                <div className="info" align="left">
+                        <BankOutlined />
+                        <p>Sống tại  <strong> 97 Man Thiện phường Hiệp Phú - Quận 9 - Thành phố Hồ Chí Minh</strong></p>
+                </div>
+                <div className="info">
+                    <BookOutlined />
+                    <p>Làm việc tại  <strong>Freelance</strong></p>        
+                </div>
+                <div className="info">
+                    <PhoneOutlined />
+                    <p> + 84 973 286 174</p>
+                </div>
+                <div className="info">
+                    <GooglePlusOutlined />
+                    <p> dqbaoptit@gmail.com</p>
                 </div>
                 <div className="info">
                         <FacebookOutlined />
