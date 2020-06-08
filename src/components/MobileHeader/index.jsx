@@ -1,19 +1,30 @@
-import React,{useState} from 'react'
-import {Link} from 'react-router-dom';
+import React,{useEffect, useRef, useState} from 'react'
 import './index.css'
-import { Radio } from 'antd';
 import tick from '../../assests/tick.png';
 import avatar from '../../assests/avt.png';
+import Nav from '../Nav';
 
 export default ()=>{
-
-    const [selection, setSelection] = useState('');
-    const handleChange=(e)=>{
-        setSelection(e.target.value)
+    const [isSticky, setSticky] = useState(false);
+  const ref = useRef(null);
+  const handleScroll = () => {
+    if (ref.current) {
+      setSticky(ref.current.getBoundingClientRect().top <= 0);
     }
-    
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', () => handleScroll);
+    };
+  }, []);
     return(
         <div>
+            <div className={`sticky-wrapper${isSticky ? ' sticky' : ''}`} ref={ref}>
+                <Nav />
+            </div>
             <div className="m-header">
                 <div className="m-header-left">
                     <div className="m-avatar-container" align="center">
@@ -33,13 +44,6 @@ export default ()=>{
                     <p>Fresher Web Front-end Developer </p>
                     <p>Mình muốn học hỏi và trau dồi kinh nghiệm để phục vụ cho công việc. Mục tiêu trở thành Full-stack Developer.</p>
                 </div>
-            </div>
-            <div className="m-base">
-                <Radio.Group value={selection} onChange={handleChange}  style={{ marginBottom: 16}}>
-                    <Link to='/'> <Radio.Button value="medium" id="button-tab"><strong>Dòng thời gian</strong></Radio.Button></Link>
-                    <Link to='/projects/'><Radio.Button value="large" id="button-tab"><strong>Dự án cá nhân</strong></Radio.Button></Link>
-                    <Link to='/connect/'><Radio.Button value="large" id="button-tab"><strong>Connect</strong></Radio.Button></Link>
-                </Radio.Group>
             </div>
         </div>
     )

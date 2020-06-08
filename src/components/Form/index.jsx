@@ -22,28 +22,28 @@ export default class MyForm extends React.Component {
                 </div>
             </div>
             <hr className="card-line"/>
-            <div class="container-contact100">
-              <div class="wrap-contact100">
-                <form class="contact100-form validate-form"
+            <div className="container-contact100">
+              <div className="wrap-contact100">
+                <form className="contact100-form validate-form"
                   onSubmit={this.submitForm}
                   action="https://formspree.io/mgenkzqp"
                   method="POST"
                 >
-                  <span class="contact100-form-title">
+                  <span className="contact100-form-title">
                   <strong>Have a question or want to work together ?</strong>
                   </span>
-                  <div class="wrap-input100 validate-input" data-validate = "Please enter your email: e@a.x">
-                    <input class="input100" type="text" name="email" placeholder="E-mail" />
-                    <span class="focus-input100"></span>
+                  <div className="wrap-input100 validate-input" data-validate = "Please enter your email: e@a.x">
+                    <input className="input100" type="text" name="email" placeholder="E-mail" />
+                    <span className="focus-input100"></span>
                   </div>
-                  <div class="wrap-input100 validate-input" data-validate = "Please enter your message">
-                    <textarea class="input100" name="message" placeholder="Your Message"></textarea>
-                    <span class="focus-input100"></span>
+                  <div className="wrap-input100 validate-input" data-validate = "Please enter your message">
+                    <textarea className="input100" name="message" placeholder="Your Message"></textarea>
+                    <span className="focus-input100"></span>
                   </div>
-                  <div class="container-contact100-form-btn">
-                    <button class="contact100-form-btn">
+                  <div className="container-contact100-form-btn">
+                    <button className="contact100-form-btn">
                       <span>
-                        <i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
+                        <i className="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
                         Send me
                       </span>
                     </button>

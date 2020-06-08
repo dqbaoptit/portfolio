@@ -24,12 +24,12 @@ export default (props)=>{
                     <div className="details">
                         <div align="left">
                             <div className="name">
-                                <a href="/"><strong>Dương Quốc Bảo</strong></a>
+                                <a href="/portfolio"><strong>Dương Quốc Bảo</strong></a>
+                                <p>đã cập nhật sự kiện.</p>
                             </div>
                             <div className="status">
-                                <p>đã cập nhật một sự kiện trong đời.</p>
+                                <p className="time"><strong>{props.time} </strong></p>
                             </div>
-                            <p className="time"><strong>{props.time} </strong></p>
                         </div>
                     </div>
                 </div>

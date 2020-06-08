@@ -71,8 +71,8 @@ export default ()=>{
                     <strong>Link Github :</strong> <a href="https://github.com/dqbaoptit/mp3-player" target="_blank"  rel="noopener noreferrer">MP3 Player</a>
                     <h3>Mô tả :</h3> 
                     <br />
-                    <p>Tạo playlist nghe nhạc theo source có sẵn</p>
-                    <p>Dùng Reactjs. Không có gì đặc sắc :D </p>
+                    <p>Tạo playlist nghe nhạc theo source nhạc có sẵn</p>
+                    <p>Dùng Reactjs. Không có gì đặc sắc.</p>
                 </div>
             </div>
             <hr id="line"/>
@@ -97,6 +97,8 @@ export default ()=>{
                     <h3 color="red">Có thể chứa nội dung 16+</h3>
                 </div>
             </div>
+            <hr id="line" />
+
             <div className="project" >
                 <div className="project-item" align="center">
                     <Card
@@ -115,6 +117,8 @@ export default ()=>{
                     <p>Video demo : <a href="https://www.facebook.com/quocbao.duong.399/videos/1195447684141686/" target="_blank" rel="noopener noreferrer"> Here </a>  </p>
                 </div>
             </div>
+            <hr id="line" />
+
             <div className="project" >
                 <div className="project-item" align="center">
                     <Card

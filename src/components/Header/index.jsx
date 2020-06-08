@@ -30,10 +30,10 @@ export default (props)=>{
         </div>
         <div className="base">
                 <Radio.Group value={selection} onChange={handleChange}  style={{ marginBottom: 16,  marginLeft:250 }}>
-                    <Link to='/'><Radio.Button  id="button-tab" value="small"><strong>Dòng thời gian</strong></Radio.Button></Link>
-                    <Link to='/intro/'> <Radio.Button value="medium" id="button-tab"><strong>Giới thiệu</strong></Radio.Button></Link>
-                    <Link to='/projects/'><Radio.Button value="large" id="button-tab"><strong>Dự án cá nhân</strong></Radio.Button></Link>
-                    <Link to='/connect/'><Radio.Button value="large" id="button-tab"><strong>Connect</strong></Radio.Button></Link>
+                    <Link to='/portfolio'><Radio.Button  id="button-tab" value="small"><strong>Dòng thời gian</strong></Radio.Button></Link>
+                    <Link to='/portfolio/intro'> <Radio.Button value="medium" id="button-tab"><strong>Giới thiệu</strong></Radio.Button></Link>
+                    <Link to='/portfolio/projects'><Radio.Button value="large" id="button-tab"><strong>Dự án cá nhân</strong></Radio.Button></Link>
+                    <Link to='/portfolio/connect'><Radio.Button value="large" id="button-tab"><strong>Connect</strong></Radio.Button></Link>
                 </Radio.Group>
         </div>
         </div>

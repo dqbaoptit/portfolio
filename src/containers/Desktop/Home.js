@@ -28,7 +28,7 @@ return (
 					<div className="Skills"> 
 						<Skills />
 					</div>
-					<div align className="Footer-home">
+					<div  className="Footer-home">
 						<Footer />
 					</div>
 				</div>

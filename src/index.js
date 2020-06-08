@@ -38,10 +38,10 @@ ReactDOM.render(
       query={{ method: 'isAtLeast',breakpoint: 'tablet' }}>
     <Router >
         <Switch>
-          <Route exact path='/' component={Home} />
-          <Route path='/intro/' component={Intro} />
-          <Route path='/projects/' component={Proj} />
-          <Route path='/connect/' component={Connect} />
+          <Route exact path='/portfolio' component={Home} />
+          <Route path='/portfolio/intro' component={Intro} />
+          <Route path='/portfolio/projects' component={Proj} />
+          <Route path='/portfolio/connect' component={Connect} />
         </Switch>
       </Router>
     </Break>
@@ -52,9 +52,9 @@ ReactDOM.render(
       query={{ method: 'isAtMost',breakpoint: 'phablet' }}>
       <Router >
         <Switch>
-          <Route exact path='/' component={MHome} />
-          <Route path='/projects/' component={MProj} />
-          <Route path='/connect/' component={MConnect} />
+          <Route exact path='/portfolio' component={MHome} />
+          <Route path='/portfolio/projects' component={MProj} />
+          <Route path='/portfolio/connect' component={MConnect} />
         </Switch>
       </Router>
     </Break>

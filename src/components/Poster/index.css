@@ -24,12 +24,15 @@
 }
 
 .name {
-    display: flex;
+    display: inline-flex;
+}
+
+.details {
+    margin-top: -10px;
 }
 
 .time {
     margin-top: -15px;
-    margin-left: 9px;
     font-size: 12px;
     color: rgb(99, 95, 95);
 }

@@ -25,10 +25,10 @@
 }
 
 .m-header {
-    background-color: rgb(28, 30, 33);
     display: flex;
     height: 230px;
     border-radius: 1%;
+    background-image: url(https://media.giphy.com/media/LoNF8cgrrwYju5DxQL/giphy.gif);
 }
 
 .m-header-left {
@@ -47,14 +47,6 @@
     font-size: 20px;
 }
 
-.m-base {
-    background-color: #FFF;
-    width: 100%;
-    height: 35px;
-    border: solid 1px #dddfe2;
-    border-radius: 1%;
-}
-
 .m-name a {
     color: #385898;
 }
@@ -70,4 +62,18 @@
 #button-tab:hover {
     color: #385898;
     background-color: gray;
+}
+
+.sticky-wrapper {
+    position: relative;
+    height: 3rem;
+    /* We need to change this value */
+}
+
+.sticky .sticky-inner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
