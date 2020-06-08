@@ -28,9 +28,7 @@ return (
 					<div className="Skills"> 
 						<Skills />
 					</div>
-					<div  className="Footer-home">
-						<Footer />
-					</div>
+					
 				</div>
 				<div className="main-right">
 					<div className="post">
@@ -41,6 +39,9 @@ return (
 					</div>
 					<div className="post">
 						<Poster  type='skills' time="tháng 9 năm 2018 đến nay" title="Kỹ năng"/>
+					</div>
+					<div  className="Footer-home">
+						<Footer />
 					</div>
 				</div>
 			</div>
