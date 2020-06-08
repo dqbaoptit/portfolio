@@ -17,7 +17,7 @@
 }
 
 .name p {
-    margin-top: 20px;
+    margin: 20px;
     margin-left: 5px;
     color: rgb(99, 95, 95);
     font-size: 15px;
@@ -32,7 +32,6 @@
 }
 
 .time {
-    margin-top: -15px;
     font-size: 12px;
     color: rgb(99, 95, 95);
 }
