@@ -55,19 +55,8 @@
     margin-left: 5px;
 }
 
-#button-tab {
-    color: #385898;
-}
-
-#button-tab:hover {
-    color: #385898;
-    background-color: gray;
-}
-
 .sticky-wrapper {
     position: relative;
-    height: 3rem;
-    /* We need to change this value */
 }
 
 .sticky .sticky-inner {
@@ -76,4 +65,5 @@
     left: 0;
     right: 0;
     z-index: 1;
+    width: 100%;
 }

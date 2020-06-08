@@ -1,18 +1,9 @@
 .button {
-    padding-top: 10px;
+    opacity: 0.5;
+    display: flex;
+    justify-content: space-around;
+    background-color: #167091;
+    width: 100%;
 }
 
-.button-item {
-    padding: 3px;
-    background-color: white;
-    color: rgb(68, 66, 66);
-    border-radius: 5%;
-    cursor: pointer;
-    font-size: medium;
-    border: solid 0.01px gray;
-}
-
-.button-item:hover {
-    background-color: gray;
-    color: white;
-}
+.button-item {}

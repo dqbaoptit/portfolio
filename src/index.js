@@ -11,7 +11,7 @@ import Connect from './containers/Desktop/Connect';
 
 
 import 'antd/dist/antd.css';
-import { BrowserRouter as Router,Route,Switch } from 'react-router-dom';
+import { BrowserRouter as Router,Route,Switch,Redirect } from 'react-router-dom';
 
 import Break from 'react-break';
 
@@ -20,6 +20,7 @@ import Break from 'react-break';
 import MHome from './containers/Mobile/Home';
 import MProj from './containers/Mobile/Projects';
 import MConnect from './containers/Mobile/Connect';
+import ScrollToTop from './components/ScrollToTop';
 
 
 
@@ -32,17 +33,20 @@ const UIBreakpoints = {
 
 
 ReactDOM.render(
-  <React.StrictMode>
+  <React.Fragment>
     <Break
       breakpoints={UIBreakpoints}
       query={{ method: 'isAtLeast',breakpoint: 'tablet' }}>
     <Router >
+      <ScrollToTop>
         <Switch>
+          <Redirect exact from="/" to="/portfolio" />
           <Route exact path='/portfolio' component={Home} />
           <Route path='/portfolio/intro' component={Intro} />
           <Route path='/portfolio/projects' component={Proj} />
           <Route path='/portfolio/connect' component={Connect} />
         </Switch>
+      </ScrollToTop>
       </Router>
     </Break>
 
@@ -51,13 +55,17 @@ ReactDOM.render(
       breakpoints={UIBreakpoints}
       query={{ method: 'isAtMost',breakpoint: 'phablet' }}>
       <Router >
-        <Switch>
-          <Route exact path='/portfolio' component={MHome} />
-          <Route path='/portfolio/projects' component={MProj} />
-          <Route path='/portfolio/connect' component={MConnect} />
-        </Switch>
+        <ScrollToTop>
+          <Switch>
+            <Redirect exact from="/" to="/portfolio" />
+            <Redirect from='/portfolio/intro' to="/portfolio" />
+            <Route exact path='/portfolio' component={MHome} />
+            <Route path='/portfolio/projects' component={MProj} />
+            <Route path='/portfolio/connect' component={MConnect} />
+          </Switch>
+        </ScrollToTop>
       </Router>
     </Break>
-  </React.StrictMode>,
+  </React.Fragment>,
   document.getElementById('root')
 );
