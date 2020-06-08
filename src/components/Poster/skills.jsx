@@ -11,6 +11,7 @@ export default ()=>{
             <p>- Chịu được áp lực công việc, học tập.</p>
             <p> - Có khả năng đọc hiểu tài liệu Tiếng anh.</p>
             <p> - Năng động trong việc học hỏi, áp dụng các kỹ thuật mới vào công việc, dự án.</p>
+            <p>- Có thể sử dụng Photoshop, Adobe Illustrator ở mức cơ bản.</p>
         </div>
     </div>
     )
