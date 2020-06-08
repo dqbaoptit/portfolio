@@ -23,12 +23,13 @@
     font-size: 15px;
 }
 
-.name {
-    display: inline-flex;
+.name a {
+    margin: 5px;
+    margin-left: 10px;
 }
 
-.details {
-    margin-top: -10px;
+.name {
+    display: inline-flex;
 }
 
 .time {

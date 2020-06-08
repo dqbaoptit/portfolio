@@ -11,8 +11,7 @@ const { Meta } = Card;
 
 export default ()=>{
     return(
-    <div align="center">
-        <div >
+    <div align="center" className="m-projects">
             <div>
                 <div>
                     <div className="m-card-header">
@@ -140,7 +139,6 @@ export default ()=>{
             </div>
                 </div>
             </div>
-        </div>
     </div>
     )
 }

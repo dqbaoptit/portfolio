@@ -21,7 +21,7 @@ export default ()=>{
     };
   }, []);
     return(
-        <div>
+        <div className="m-container-header">
             <div className={`sticky-wrapper${isSticky ? ' sticky' : ''}`} ref={ref}>
                 <Nav />
             </div>
