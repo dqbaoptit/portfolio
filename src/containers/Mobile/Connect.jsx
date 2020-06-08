@@ -1,6 +1,7 @@
 import React from 'react';
 import Form from '../../components/Form';
 import Header from '../../components/MobileHeader';
+import Footer from '../../components/Footer';
 
 
 export default ()=>{
@@ -12,6 +13,7 @@ export default ()=>{
             <div align="center">
                 <Form />
             </div>
+            <Footer />
         </div>
     )
 }

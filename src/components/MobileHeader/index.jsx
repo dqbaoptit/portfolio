@@ -5,7 +5,7 @@ import avatar from '../../assests/avt.png';
 import Nav from '../Nav';
 
 export default ()=>{
-    const [isSticky, setSticky] = useState(false);
+    const [isSticky, setSticky] = useState(true);
   const ref = useRef(null);
   const handleScroll = () => {
     if (ref.current) {
@@ -22,9 +22,9 @@ export default ()=>{
   }, []);
     return(
         <div className="m-container-header">
-            <div className={`sticky-wrapper${isSticky ? ' sticky' : ''}`} ref={ref}>
-                <Nav />
-            </div>
+                <div className={`sticky-wrapper${isSticky ? ' sticky' : 'non-sticky'}`} ref={ref}>
+                    <Nav />
+                </div>
             <div className="m-header">
                 <div className="m-header-left">
                     <div className="m-avatar-container" align="center">
