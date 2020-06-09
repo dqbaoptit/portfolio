@@ -12,3 +12,7 @@
     border: solid 1px #dddfe2;
     border-radius: 1%;
 }
+
+.m-Button {
+    margin-top: 20px;
+}

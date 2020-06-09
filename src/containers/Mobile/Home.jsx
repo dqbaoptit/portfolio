@@ -13,7 +13,7 @@ export default ()=>{
             <div className="m-Header">
                 <Header />
             </div>
-            <div align="center">
+            <div align="center" className="m-Button">
                 <Button />
             </div>
             <div className="m-Contact">
