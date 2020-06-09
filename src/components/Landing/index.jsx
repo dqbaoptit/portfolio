@@ -10,7 +10,7 @@ import './index.css'
         <div className="landing">
 		  <div className="landing-content" align="center">
 			<h3>Hi, I'm <strong>Quoc Bao</strong>.</h3>
-			<h3>I'm  a front-end website developer.</h3>
+			<h3>I'm  a Front-end developer.</h3>
 		  </div>
         </div>
 		<div className="arr-but">
