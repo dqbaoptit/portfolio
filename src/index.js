@@ -24,14 +24,13 @@ import ScrollToTop from './components/ScrollToTop';
 
 
 
+
 const UIBreakpoints = {
   mobile: 0,
   phablet: 550,
   tablet: 768,
   desktop: 992,
 };
-
-
 ReactDOM.render(
   <React.Fragment>
     <Break
@@ -41,7 +40,9 @@ ReactDOM.render(
       <ScrollToTop>
         <Switch>
           <Redirect exact from="/" to="/portfolio" />
-          <Route exact path='/portfolio' component={Home} />
+          <Route exact path='/portfolio'>
+            <Home />
+          </Route>
           <Route path='/portfolio/intro' component={Intro} />
           <Route path='/portfolio/projects' component={Proj} />
           <Route path='/portfolio/connect' component={Connect} />

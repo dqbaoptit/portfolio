@@ -6,7 +6,6 @@ import Footer from '../../components/Footer';
 export default ()=>{
     return(
 	<div align="center">
-
         <div className="root">
             <div>
                 <div className="Header">

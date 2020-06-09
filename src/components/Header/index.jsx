@@ -11,7 +11,7 @@ export default (props)=>{
     }
 
     return (
-        <div>
+        <div id="main">
         <div className="header">
             <div className="header-left">
                 <div className="avatar-container" align="center">

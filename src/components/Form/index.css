@@ -1,9 +1,8 @@
 .card-connect {
-    background-color: #FFF;
+    background-color: rgb(15, 15, 17);
     /* width: 810px; */
     border-radius: 0.5%;
     border: solid 1px #dddfe2;
-    background-image: url(https://media.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif);
 }
 
 
@@ -95,35 +94,35 @@ input:focus {
 }
 
 input::-webkit-input-placeholder {
-    color: #a3a3f1;
+    color: #740c81;
 }
 
 input:-moz-placeholder {
-    color: #a3a3f1;
+    color: #740c81;
 }
 
 input::-moz-placeholder {
-    color: #a3a3f1;
+    color: #740c81;
 }
 
 input:-ms-input-placeholder {
-    color: #a3a3f1;
+    color: #740c81;
 }
 
 textarea::-webkit-input-placeholder {
-    color: #a3a3f1;
+    color: #740c81;
 }
 
 textarea:-moz-placeholder {
-    color: #a3a3f1;
+    color: #740c81;
 }
 
 textarea::-moz-placeholder {
-    color: #a3a3f1;
+    color: #740c81;
 }
 
 textarea:-ms-input-placeholder {
-    color: #a3a3f1;
+    color: #740c81;
 }
 
 
@@ -187,7 +186,7 @@ iframe {
     display: block;
     font-family: Ubuntu-Bold;
     font-size: 40px;
-    color: #f4f3f7;
+    color: #740c81;
     line-height: 1.2;
     text-transform: uppercase;
     text-align: center;
@@ -200,7 +199,7 @@ iframe {
 
 .wrap-input100 {
     width: 100%;
-    background-color: rgb(201, 57, 57);
+    background-color: #740c81;
     border-radius: 31px;
     margin-bottom: 16px;
     position: relative;
@@ -215,7 +214,7 @@ iframe {
     border-radius: 31px;
     font-family: Ubuntu-Bold;
     font-size: 18px;
-    color: #5757f0;
+    color: #740c81;
     line-height: 1.2;
 }
 
@@ -318,7 +317,7 @@ textarea.input100 {
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
     border-radius: 20px;
-    background-color: #4340e0;
+    background-color: #740c81;
     pointer-events: none;
     -webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
@@ -328,13 +327,13 @@ textarea.input100 {
 
 .contact100-form-btn:hover:before {
     background-color: #f4f4f5;
-    color: #827ffe;
+    color: #740c81;
     width: calc(100% + 20px);
 }
 
 .contact100-form-btn:hover {
     background-color: #f4f4f5;
-    color: #827ffe;
+    color: #740c81;
 }
 
 

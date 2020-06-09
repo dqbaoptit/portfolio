@@ -30,7 +30,7 @@ export default class MyForm extends React.Component {
                   method="POST"
                 >
                   <span className="contact100-form-title">
-                  <strong>Have a question or want to work together ?</strong>
+                  Have a question or want to work together ?
                   </span>
                   <div className="wrap-input100 validate-input" data-validate = "Please enter your email: e@a.x">
                     <input className="input100" type="text" name="email" placeholder="E-mail" />

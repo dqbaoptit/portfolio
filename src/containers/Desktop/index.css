@@ -10,6 +10,10 @@ body {
     background-color: #e9ebee;
 }
 
+.Button {
+    margin-left: 23%;
+}
+
 .Header {
     border-radius: 5%;
     width: 840px;
@@ -31,10 +35,6 @@ body {
 .main {
     display: flex;
     justify-content: space-evenly;
-}
-
-.projects {
-    width: 810px;
 }
 
 .mainn {

@@ -1,0 +1,35 @@
+.landing {
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 50px; */
+}
+
+.landing-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(12, 11, 11);
+}
+
+.image-container {
+    height: 100vh;
+}
+
+.arr-but {
+    padding-top: 200px;
+}
+
+.landing-content {
+    margin-top: 120px;
+    border: solid 2px #740c81;
+}
+
+.landing-content h3 {
+    margin: 10px;
+    font-size: 40px;
+    color: rgb(212, 207, 207)
+}
+
+.landing-content h3 strong {
+    font-size: 40px;
+    color: #740c81;
+}

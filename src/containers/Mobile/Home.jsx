@@ -3,6 +3,7 @@ import Header from '../../components/MobileHeader';
 import Contact from '../../components/MobileContact';
 import Poster from '../../components/Poster';
 import Footer from '../../components/Footer';
+import Button from '../../components/CustomButton'
 import { BackTop } from 'antd';
 
 import './index.css'
@@ -12,7 +13,11 @@ export default ()=>{
             <div className="m-Header">
                 <Header />
             </div>
+            <div align="center">
+                <Button />
+            </div>
             <div className="m-Contact">
+                
                 <Contact />
             </div>
             <div className="m-post">
