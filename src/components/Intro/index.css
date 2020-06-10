@@ -1,17 +1,17 @@
 .card {
     background-color: #FFF;
-    width: 810px;
+    width: 53rem;
     border-radius: 0.5%;
     border: solid 1px #dddfe2;
 }
 
 .Intro {
-    margin-top: 20px;
-    margin-left: 30px;
+    margin-top: 1.31rem;
+    margin-left: 1.96rem;
 }
 
 .card-header {
-    height: 50px;
+    height: 3.27rem;
     background-color: #F2F3F5;
 }
 
@@ -21,13 +21,13 @@
 }
 
 .content-items {
-    margin-top: 40px;
+    margin-top: 2.62rem;
 }
 
 .content-item {
     display: flex;
-    width: 300px;
-    margin: 20px;
+    width: 19.64rem;
+    margin: 1.31rem;
 }
 
 .content-item:hover {
@@ -35,7 +35,7 @@
 }
 
 .content-item p {
-    margin-left: 20px;
+    margin-left: 1.31rem;
 }
 
 .card-content {
@@ -44,7 +44,7 @@
 }
 
 .connect-info {
-    margin: 50px;
+    margin: 3.27rem;
 }
 
 .connect-info:hover {

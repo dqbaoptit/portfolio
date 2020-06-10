@@ -15,25 +15,26 @@ body p {
 }
 
 .Button {
-    margin-top: 15px;
-    padding: 20px;
-    padding-left: 150px;
+    margin-top: 0.982rem;
+    padding: 1.31rem;
+    padding-left: 9.82rem;
 }
 
 .Header {
     border-radius: 5%;
-    width: 840px;
-    margin-left: 13px;
+    width: 55rem;
+    min-width: 50rem;
+    margin-left: .82rem;
 }
 
 .Contact {
-    margin-top: 10px;
-    margin-left: 19%;
+    margin-top: 0.65rem;
+    margin-left: 5.24rem;
     border-radius: 5%;
 }
 
 .Skills {
-    margin-top: 10px;
+    margin-top: 0.65rem;
     margin-left: 19%;
     border-radius: 5%;
 }
@@ -46,33 +47,33 @@ body p {
 .mainn {
     display: flex;
     justify-content: space-around;
-    width: 800px;
-    margin-right: 10%;
-    margin-top: 10px
+    width: 52.4rem;
+    margin-right: 2.756rem;
+    margin-top: 0.65rem
 }
 
 .main-right {
-    margin-left: 12%;
+    margin-left: 3.3rem;
 }
 
 .post {
-    margin-top: 10px;
-    width: 460px;
+    margin-top: 0.65rem;
+    width: 30.12rem;
 }
 
 .root {
-    width: 800px;
+    width: 52.4rem;
 }
 
 .Footer-home {
-    margin-top: 40px;
-    margin-left: 19%;
-    width: 320px;
+    margin-top: 2.62rem;
+    margin-left: 2.75rem;
+    width: 20.96rem;
 }
 
 .Footer {
-    margin-left: 4%;
-    width: 815px;
+    margin-left: 1.102rem;
+    width: 53.36rem;
 }
 
 .alert-enter {

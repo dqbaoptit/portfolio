@@ -1,34 +1,33 @@
 .landing {
     display: flex;
     justify-content: space-around;
+    width: 100vw;
+    height: 105vh;
+    overflow: hidden;
+    cursor: none;
 }
 
 .landing-container {
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(12, 11, 11);
-}
-
-.image-container {
-    height: 100vh;
+    background-color: rgb(10, 10, 10);
 }
 
 .arr-but {
-    padding-top: 200px;
+    padding-top: 15.1rem;
 }
 
 .landing-content {
-    margin-top: 120px;
+    margin-top: 7.85rem;
     border: solid 2px #740c81;
+    padding: 0.3rem
 }
 
 .landing-content h3 {
-    margin: 10px;
-    font-size: 40px;
-    color: rgb(212, 207, 207)
+    margin: 0.65rem;
+    font-size: 1.5rem;
+    color: rgb(212, 207, 207);
 }
 
 .landing-content h3 strong {
-    font-size: 40px;
+    font-size: 1.5rem;
     color: #740c81;
 }

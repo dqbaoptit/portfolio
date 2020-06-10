@@ -1,12 +1,12 @@
 .skills-container {
-    width: 320px;
+    width: 20.95rem;
     border: solid 1px #dddfe2;
     border-radius: 1%;
     background-color: #FFF;
 }
 
 #line {
-    width: 300px;
+    width: 19.64rem;
     color: #dddfe2;
 }
 
@@ -34,7 +34,7 @@
     background-color: rgb(0, 0, 0, 0.2);
     margin-top: 1em;
     left: 0;
-    height: 20px;
+    height: 1.31rem;
     top: 0;
     padding: 0;
     margin-left: 5px;
@@ -43,7 +43,7 @@
 
 .skill-line {
     position: block;
-    height: 20px;
+    height: 1.31rem;
     z-index: 3;
     border-radius: 3px;
 }

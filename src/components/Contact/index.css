@@ -1,12 +1,12 @@
 .contact-container {
-    width: 320px;
+    width: 20.95rem;
     border: solid 1px #dddfe2;
     border-radius: 1%;
     background-color: #FFF;
 }
 
 #line {
-    width: 250px;
+    width: 16.37rem;
     color: #dddfe2;
     font-size: 0.5px;
 }
@@ -22,12 +22,12 @@
 }
 
 .info-header span {
-    padding-top: 15px;
-    padding-left: 20px;
+    padding-top: 0.98rem;
+    padding-left: 1.31rem;
 }
 
 .info-header h3 {
-    margin: 20px;
+    margin: 1.31rem;
     font-size: 18px;
 }
 
@@ -60,6 +60,6 @@
 }
 
 .bio {
-    padding-left: 25px;
-    padding-right: 25px
+    padding-left: 1.637rem;
+    padding-right: 1.637rem
 }

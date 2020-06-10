@@ -16,15 +16,15 @@ export default ()=>{
             <div className="info-container">
                 <div className="info" align="left">
                     <BankOutlined />
-                    <p>Học Information Technology tại <strong> Học viện Công nghệ Bưu chính Viễn thông cơ sở tại TP.HCM </strong> khoá <strong>2018 - 2023</strong></p> 
+                    <p>Học Information Technology <p> <strong> Học viện Công nghệ Bưu chính Viễn thông cơ sở tại TP.HCM </strong></p> <p> <strong>2018 - 2023</strong> </p></p> 
                 </div>
                 <div className="info" align="left">
                         <BankOutlined />
-                        <p>Sống tại  <strong> 97 Man Thiện phường Hiệp Phú - Quận 9 - Thành phố Hồ Chí Minh</strong></p>
+                        <p>Sống tại <p> <strong> 97 Man Thiện phường Hiệp Phú - Quận 9 - Thành phố Hồ Chí Minh</strong> </p> </p>
                 </div>
                 <div className="info">
                     <BookOutlined />
-                    <p>Làm việc tại  <strong>Freelance</strong></p>        
+                    <p>Làm việc tại  <p> <strong>Freelance</strong></p> </p>
                 </div>
                 <div className="info">
                     <PhoneOutlined />

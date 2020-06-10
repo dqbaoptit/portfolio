@@ -5,7 +5,7 @@ import avatar from '../../assests/avt.png';
 import Nav from '../Nav';
 
 export default ()=>{
-    const [isSticky, setSticky] = useState(true);
+    const [isSticky, setSticky] = useState(false);
   const ref = useRef(null);
   const handleScroll = () => {
     if (ref.current) {

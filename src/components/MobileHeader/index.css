@@ -30,23 +30,23 @@
 
 .m-header {
     display: flex;
-    height: 230px;
+    height: 15.05rem;
     border-radius: 1%;
     background-image: url(https://media.giphy.com/media/LoNF8cgrrwYju5DxQL/giphy.gif);
 }
 
 .m-header-left {
-    margin-top: 90px;
-    margin-left: 30%;
+    margin-top: 5.9rem;
+    margin-left: 7.5rem;
 }
 
 .m-header-bot {
-    margin-top: 40px;
+    margin-top: 2.62rem;
 }
 
 .m-header h2 {
-    margin-top: 100px;
-    margin-left: 30px;
+    margin-top: 6.55rem;
+    margin-left: 1.96rem;
     color: white;
     font-size: 20px;
 }

@@ -7,18 +7,18 @@ import Footer from '../../components/Footer';
 import Button from '../../components/CustomButton';
 import avt from '../../assests/avt.png';
 import Landing from '../../components/Landing';
-
 import './index.css'
 
 let isUsed=false;
 const handleClick = () => {
 	isUsed = true;
 }
+
 function App() {
 return (
 	<div>
 		<div onClick={handleClick}>
-			{!isUsed ? <Landing /> : null}
+			{!isUsed ? <Landing to="#main" /> : null}
 		</div>
 	<div align="center">
 		<div className="root">
@@ -54,7 +54,6 @@ return (
 					<div className="post">
 						<Poster  type='skills' time="tháng 9 năm 2018 đến nay" title="Kỹ năng"/>
 					</div>
-					
 				</div>
 				</div>
 				</div>
