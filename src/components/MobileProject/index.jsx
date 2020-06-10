@@ -18,18 +18,19 @@ export default ()=>{
                         <ProjectOutlined />
                         <h3>Projects</h3>
                     </div>
-                    <div className="project" >
+                    <div className="m-project" >
                         <div className="project-item" align="center">
                             <Card
                                 hoverable
                                 style={{ width:100 }}
                                 cover={<img alt="example" src="https://cdn1.vectorstock.com/i/1000x1000/60/40/businessman-finding-job-with-magnifier-vector-15376040.jpg" />}
                             >
-                                <a href="https://dqbaoptit.github.io/jav" target="_blank"  rel="noopener noreferrer">Demo</a>
                             </Card>
                         </div>
                         <div className="project-item" align="left">
                             <strong>Link Github : </strong> <a href="https://github.com/dqbaoptit/jav" target="_blank"  rel="noopener noreferrer"> Model JAV Seacher</a>
+                            <br/><strong>Link Demo : </strong><a href="https://dqbaoptit.github.io/jav" target="_blank"  rel="noopener noreferrer">Demo</a>
+                            
                             <h3>Mô tả :</h3>
                             <br />
                             <p>Sử dụng API của Toidicodedao.</p>
@@ -39,7 +40,7 @@ export default ()=>{
                         </div>
                     </div>
                     <hr id="line" />
-                    <div className="project" >
+                    <div className="m-project" >
                         
                         <div className="project-item">
                             <Card
@@ -47,11 +48,11 @@ export default ()=>{
                                 style={{ width:100 }}
                                 cover={<img alt="example" src={snake} />}
                             >
-                                <a href="https://dqbaoptit.github.io/snake-reactjs" target="_blank"  rel="noopener noreferrer">Demo</a>
                             </Card>
                         </div>
                         <div className="project-item" align="left">
                             <strong>Link Github : </strong> <a href="https://github.com/dqbaoptit/snake-reactjs" target="_blank"  rel="noopener noreferrer"> Snake - React.JS</a>
+                            <br/><strong>Link Demo : </strong><a href="https://dqbaoptit.github.io/snake-reactjs" target="_blank"  rel="noopener noreferrer">Demo</a>
                             <br />
                             <h3>Mô tả :</h3>
                             <br />
@@ -59,18 +60,19 @@ export default ()=>{
                         </div>
                     </div>
                     <hr id="line" />
-                    <div className="project" >
+                    <div className="m-project" >
                         <div className="project-item" align="center">
                             <Card
                                 hoverable
                                 style={{ width:100 }}
                                 cover={<img alt="example" src={gif} />}
                             >
-                                <a href="https://dqbaoptit.github.io/Gifs" target="_blank"  rel="noopener noreferrer">Demo</a>
                             </Card>
                         </div>
                         <div className="project-item" align="left">
                             <strong>Link Github : </strong> <a href="https://github.com/dqbaoptit/Gifs" target="_blank"  rel="noopener noreferrer"> Let's GIF</a>
+                            <br/><strong>Link Demo : </strong>
+                            <a href="https://dqbaoptit.github.io/Gifs" target="_blank"  rel="noopener noreferrer">Demo</a>
                             <h3>Mô tả :</h3>
                             <br />
                             <p>Sử dụng API Giphy</p>
@@ -78,18 +80,20 @@ export default ()=>{
                         </div>
                     </div>
                     <hr id="line" />
-            <div className="project" >
+            <div className="m-project" >
                 <div className="project-item" align="center">
                     <Card
                         hoverable
                         style={{ width:100 }}
                         cover={<img alt="example" src={music} />}
                     >
-                        <a href="https://dqbaoptit.github.io/mp3-player" target="_blank"  rel="noopener noreferrer">Demo</a>
                     </Card>
                 </div>
                 <div className="project-item" align="left">
                     <strong>Link Github :</strong> <a href="https://github.com/dqbaoptit/mp3-player" target="_blank"  rel="noopener noreferrer">MP3 Player</a>
+                    <br/><strong>Link Demo : </strong>
+                    <a href="https://dqbaoptit.github.io/mp3-player" target="_blank"  rel="noopener noreferrer">Demo</a>
+
                     <h3>Mô tả :</h3> 
                     <br />
                     <p>Tạo playlist nghe nhạc theo source nhạc có sẵn</p>
@@ -100,7 +104,7 @@ export default ()=>{
 
         
 
-            <div className="project" >
+            <div className="m-project" >
                 <div className="project-item" align="center">
                     <Card
                         hoverable
@@ -120,7 +124,7 @@ export default ()=>{
             </div>
             <hr id="line" />
 
-            <div className="project" >
+            <div className="m-project" >
                 <div className="project-item" align="center">
                     <Card
                         hoverable

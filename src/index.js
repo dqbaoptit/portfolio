@@ -33,7 +33,7 @@ ReactDOM.render(
   <React.Fragment>
     <Break
       breakpoints={UIBreakpoints}
-      query={{ method: 'isAtLeast',breakpoint: 'tablet' }}>
+      query={{ method: 'isAtLeast',breakpoint: 'desktop' }}>
       <Router >
         <ScrollToTop>
             <Switch >
@@ -50,7 +50,7 @@ ReactDOM.render(
 
     <Break
       breakpoints={UIBreakpoints}
-      query={{ method: 'isAtMost',breakpoint: 'phablet' }}>
+      query={{ method: 'isAtMost',breakpoint: 'tablet' }}>
       <Router >
         <ScrollToTop>
           <Switch>

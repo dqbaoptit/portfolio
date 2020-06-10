@@ -7,7 +7,8 @@ import './index.css'
 
  export default (props) => {
    return(
-		<div className="landing-container">
+		<div className="landing-container" align="center">
+			<Heart />
 			<div className="landing">
 				<AnchorLink href={props.to}>
 					<div className="landing-content" align="center">
@@ -20,8 +21,6 @@ import './index.css'
 					</div>
 				</AnchorLink>
 			</div>
-			<Heart />
-
 			<div className="arr-but">
 				<AnchorLink href={props.to}><Button /></AnchorLink>
 			</div>
