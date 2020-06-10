@@ -29,3 +29,71 @@
     cursor: pointer;
     border-radius: 5%;
 }
+
+.skill-liner {
+    background-color: rgb(0, 0, 0, 0.2);
+    margin-top: 1em;
+    left: 0;
+    height: 20px;
+    top: 0;
+    padding: 0;
+    margin-left: 5px;
+    width: 100%;
+}
+
+.skill-line {
+    position: block;
+    height: 20px;
+    z-index: 3;
+    border-radius: 3px;
+}
+
+.item-container {
+    display: flex;
+}
+
+.skill-liner {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.skill-liner .skill-line {
+    animation: rotate 30s infinite linear;
+    -webkit-animation: rotate 30s infinite linear;
+}
+
+@-webkit-keyframes rotate {
+    from {
+        background-position: -3000px;
+    }
+    to {
+        background-position: 0px;
+    }
+}
+
+@keyframes rotate {
+    from {
+        background-position: -3000px;
+    }
+    to {
+        background-position: 0px;
+    }
+}
+
+.gradient {
+    background: #30ff90;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #2badce 0%, #1474a1 25%, #2792c4 50%, #276ec0 75%, #218eb9 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #2badce), color-stop(25%, #1474a1), color-stop(50%, #2792c4), color-stop(75%, #276ec0), color-stop(100%, #218eb9));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #2badce 0%, #1474a1 25%, #2792c4 50%, #276ec0 75%, #218eb9 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #2badce 0%, #1474a1 25%, #2792c4 50%, #276ec0 75%, #218eb9 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #2badce 0%, #1474a1 25%, #2792c4 50%, #276ec0 75%, #218eb9 100%);
+    /* IE10+ */
+    background: linear-gradient(to right, #2badce 0%, #1474a1 25%, #2792c4 50%, #276ec0 75%, #218eb9 100%);
+    /* W3C */
+    /* IE6-9 */
+}

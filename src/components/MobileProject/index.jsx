@@ -19,6 +19,28 @@ export default ()=>{
                         <h3>Projects</h3>
                     </div>
                     <div className="project" >
+                        <div className="project-item" align="center">
+                            <Card
+                                hoverable
+                                style={{ width:100 }}
+                                cover={<img alt="example" src="https://cdn1.vectorstock.com/i/1000x1000/60/40/businessman-finding-job-with-magnifier-vector-15376040.jpg" />}
+                            >
+                                <a href="https://dqbaoptit.github.io/jav" target="_blank"  rel="noopener noreferrer">Demo</a>
+                            </Card>
+                        </div>
+                        <div className="project-item" align="left">
+                            <strong>Link Github : </strong> <a href="https://github.com/dqbaoptit/jav" target="_blank"  rel="noopener noreferrer"> Model JAV Seacher</a>
+                            <h3>Mô tả :</h3>
+                            <br />
+                            <p>Sử dụng API của Toidicodedao.</p>
+                            <p>Áp dụng Debouce Searching</p>
+                            <p>Áp dụng Lazy loading</p>
+                            <h3 color="red">Có thể chứa nội dung 16+</h3>
+                        </div>
+                    </div>
+                    <hr id="line" />
+                    <div className="project" >
+                        
                         <div className="project-item">
                             <Card
                                 hoverable
@@ -76,27 +98,7 @@ export default ()=>{
             </div>
             <hr id="line"/>
 
-            <div className="project" >
-                <div className="project-item" align="center">
-                    <Card
-                        hoverable
-                        style={{ width:100 }}
-                        cover={<img alt="example" src="https://cdn1.vectorstock.com/i/1000x1000/60/40/businessman-finding-job-with-magnifier-vector-15376040.jpg" />}
-                    >
-                        <a href="https://dqbaoptit.github.io/jav" target="_blank"  rel="noopener noreferrer">Demo</a>
-                    </Card>
-                </div>
-                <div className="project-item" align="left">
-                    <strong>Link Github : </strong> <a href="https://github.com/dqbaoptit/jav" target="_blank"  rel="noopener noreferrer"> Model JAV Seacher</a>
-                    <h3>Mô tả :</h3>
-                    <br />
-                    <p>Sử dụng API của Toidicodedao.</p>
-                    <p>Áp dụng Debouce Searching</p>
-                    <p>Áp dụng Lazy loading</p>
-                    <h3 color="red">Có thể chứa nội dung 16+</h3>
-                </div>
-            </div>
-            <hr id="line" />
+        
 
             <div className="project" >
                 <div className="project-item" align="center">

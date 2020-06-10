@@ -43,15 +43,23 @@
     font-size: 12px;
 }
 
+.info p strong {
+    margin-left: -5px;
+}
+
 .cer {
-    /* height: 300px; */
     padding: 10px;
 }
 
 .info-container {
-    margin: 5px;
+    margin: 3px;
 }
 
 .bio p {
     font-size: 12px;
+}
+
+.bio {
+    padding-left: 25px;
+    padding-right: 25px
 }

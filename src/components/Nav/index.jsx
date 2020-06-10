@@ -6,7 +6,7 @@ import {HomeOutlined,ProjectOutlined,ContactsOutlined} from '@ant-design/icons';
 export default () =>{
     return(
         <div align="center" className="sticky-inner">
-            <div className="button" >
+            <div className="nav-button" >
                 <div align="center" className="button-item">
                 <Link to="/portfolio"><HomeOutlined style={{fontSize:42, color:"#fff"}} /></Link>
                 </div>

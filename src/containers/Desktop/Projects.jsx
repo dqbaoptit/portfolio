@@ -7,8 +7,10 @@ import scr from '../../assests/avt.png'
 import './index.css';
 import { BackTop } from 'antd';
 
+
 export default ()=>{
     return(
+
         <div align="center">
             <div className="root">
                 <div>
@@ -16,14 +18,15 @@ export default ()=>{
                         <Header name="Dương Quốc Bảo" avatar={scr} />
                     </div>
                 </div>
-                <div>
-                    <Project />
-                </div>
+                    <div>
+                        <Project />
+                    </div>
                 <BackTop />
             </div>
             <div className="Footer">
                 <Footer />
             </div>
         </div>
+
     )
 }

@@ -1,6 +1,5 @@
 .card-connect {
-    background-color: rgb(15, 15, 17);
-    /* width: 810px; */
+    background-color: rgb(139, 139, 145);
     border-radius: 0.5%;
     border: solid 1px #dddfe2;
 }
@@ -12,12 +11,6 @@
 
 /*//////////////////////////////////////////////////////////////////
   [ RESTYLE TAG ]*/
-
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
 
 
 /*---------------------------------------------*/
@@ -39,33 +32,6 @@ a:focus {
 a:hover {
     text-decoration: none;
 }
-
-
-/*---------------------------------------------*/
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0px;
-}
-
-p {
-    font-size: 14px;
-    line-height: 1.7;
-    margin: 0px;
-}
-
-ul,
-li {
-    margin: 0px;
-    list-style-type: none;
-}
-
-
-/*---------------------------------------------*/
 
 input {
     outline: none;
@@ -94,35 +60,35 @@ input:focus {
 }
 
 input::-webkit-input-placeholder {
-    color: #740c81;
+    color: #05427a;
 }
 
 input:-moz-placeholder {
-    color: #740c81;
+    color: #05427a;
 }
 
 input::-moz-placeholder {
-    color: #740c81;
+    color: #05427a;
 }
 
 input:-ms-input-placeholder {
-    color: #740c81;
+    color: #05427a;
 }
 
 textarea::-webkit-input-placeholder {
-    color: #740c81;
+    color: #05427a;
 }
 
 textarea:-moz-placeholder {
-    color: #740c81;
+    color: #05427a;
 }
 
 textarea::-moz-placeholder {
-    color: #740c81;
+    color: #05427a;
 }
 
 textarea:-ms-input-placeholder {
-    color: #740c81;
+    color: #05427a;
 }
 
 
@@ -186,7 +152,7 @@ iframe {
     display: block;
     font-family: Ubuntu-Bold;
     font-size: 40px;
-    color: #740c81;
+    color: #05427a;
     line-height: 1.2;
     text-transform: uppercase;
     text-align: center;
@@ -199,7 +165,7 @@ iframe {
 
 .wrap-input100 {
     width: 100%;
-    background-color: #740c81;
+    background-color: #05427a;
     border-radius: 31px;
     margin-bottom: 16px;
     position: relative;
@@ -214,7 +180,7 @@ iframe {
     border-radius: 31px;
     font-family: Ubuntu-Bold;
     font-size: 18px;
-    color: #740c81;
+    color: #05427a;
     line-height: 1.2;
 }
 
@@ -317,7 +283,7 @@ textarea.input100 {
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
     border-radius: 20px;
-    background-color: #740c81;
+    background-color: #05427a;
     pointer-events: none;
     -webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
@@ -327,13 +293,13 @@ textarea.input100 {
 
 .contact100-form-btn:hover:before {
     background-color: #f4f4f5;
-    color: #740c81;
+    color: #05427a;
     width: calc(100% + 20px);
 }
 
 .contact100-form-btn:hover {
     background-color: #f4f4f5;
-    color: #740c81;
+    color: #05427a;
 }
 
 

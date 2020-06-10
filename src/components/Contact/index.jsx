@@ -13,16 +13,16 @@ export default ()=>{
                 </span>
                 <h3>Giới thiệu</h3>
             </div>
-            <div align="center" className="bio">
+            <div align="left" className="bio">
                 <p>05 - 04 - 2000</p>
                 <p>Fresher Web Front-end Developer </p>
                 <p>Mình muốn học hỏi và trau dồi kinh nghiệm để phục vụ cho công việc.</p> <p> Mục tiêu trở thành Full-stack Developer.</p>
             </div>
             <hr id="line" />
             <div className="info-container">
-                <div className="info">
+                <div className="info" align="left">
                     <BankOutlined />
-                    <p>Học Information Technology tại <strong> Học viện Công nghệ Bưu chính Viễn thông cơ sở tại TP.HCM </strong></p>
+                    <p>Học Information Technology <p><strong> Học viện Công nghệ Bưu chính Viễn thông cơ sở tại TP.HCM </strong></p></p>
                 </div>
                 <div className="info">
                         <FacebookOutlined />

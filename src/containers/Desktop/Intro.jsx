@@ -3,6 +3,8 @@ import Header from '../../components/Header';
 import avatar from '../../assests/avt.png';
 import Intro from '../../components/Intro';
 import Footer from '../../components/Footer';
+import Button from '../../components/CustomButton';
+
 export default ()=>{
     return(
 	<div align="center">
@@ -12,7 +14,10 @@ export default ()=>{
                     <Header avatar={avatar} name="Dương Quốc Bảo" />
                 </div>
             </div>
-            <div align="center" className="Intro">
+            <div className="Button" align="center">
+						<Button />
+				</div>
+            <div align="center" className="Intro" >
                 <Intro />
             </div>
         </div>

@@ -28,34 +28,34 @@ return (
 				</div>
 				</div>
 			<div>
-				<div align="center">
-				<div className="mainn">
-					<div className="main-left">
-						<div className="Button" align="center">
-							<Button />
-						</div>
-						<div className="Contact">
-							<Contact />
-						</div>
-						<div className="Skills"> 
-							<Skills />
-						</div>
-						<div  className="Footer-home">
-							<Footer />
-						</div>
+			<div align="center">
+				<div className="Button" align="center">
+						<Button />
+				</div>
+			<div className="mainn">
+				<div className="main-left">
+					<div className="Contact">
+						<Contact />
 					</div>
-					<div className="main-right">
-						<div className="post">
-							<Poster school={true} type='education' time="tháng 9 năm 2018 đến nay" title="Học vấn "/>
-						</div>
-						<div className="post">
-							<Poster type='exper' time="tháng 9 năm 2018 đến nay" title="Kinh nghiệm"/>
-						</div>
-						<div className="post">
-							<Poster  type='skills' time="tháng 9 năm 2018 đến nay" title="Kỹ năng"/>
-						</div>
-						
+					<div className="Skills"> 
+						<Skills />
 					</div>
+					<div  className="Footer-home">
+						<Footer />
+					</div>
+				</div>
+				<div className="main-right">
+					<div className="post">
+						<Poster school={true} type='education' time="tháng 9 năm 2018 đến nay" title="Học vấn "/>
+					</div>
+					<div className="post">
+						<Poster type='exper' time="tháng 9 năm 2018 đến nay" title="Kinh nghiệm"/>
+					</div>
+					<div className="post">
+						<Poster  type='skills' time="tháng 9 năm 2018 đến nay" title="Kỹ năng"/>
+					</div>
+					
+				</div>
 				</div>
 				</div>
 			</div>

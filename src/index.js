@@ -23,8 +23,6 @@ import MConnect from './containers/Mobile/Connect';
 import ScrollToTop from './components/ScrollToTop';
 
 
-
-
 const UIBreakpoints = {
   mobile: 0,
   phablet: 550,
@@ -36,18 +34,16 @@ ReactDOM.render(
     <Break
       breakpoints={UIBreakpoints}
       query={{ method: 'isAtLeast',breakpoint: 'tablet' }}>
-    <Router >
-      <ScrollToTop>
-        <Switch>
-          <Redirect exact from="/" to="/portfolio" />
-          <Route exact path='/portfolio'>
-            <Home />
-          </Route>
-          <Route path='/portfolio/intro' component={Intro} />
-          <Route path='/portfolio/projects' component={Proj} />
-          <Route path='/portfolio/connect' component={Connect} />
-        </Switch>
-      </ScrollToTop>
+      <Router >
+        <ScrollToTop>
+            <Switch >
+            <Redirect exact from="/" to="/portfolio" />
+            <Route path='/portfolio/intro' component={Intro} />
+            <Route exact path='/portfolio' component={Home} />
+            <Route path='/portfolio/projects' component={Proj} />
+            <Route path='/portfolio/connect' component={Connect} />
+            </Switch>
+        </ScrollToTop>
       </Router>
     </Break>
 

@@ -9,7 +9,7 @@ import { Card } from 'antd';
 const { Meta } = Card;
 export default()=>{
     return(
-    <div align="center">
+    <div align="left">
     <div className="Project">
         <div className="card">
             <div className="card-header">
@@ -21,10 +21,32 @@ export default()=>{
         </div>
         <div className="projects">
             <div className="project" >
+                    <div className="project-item" align="center">
+                        <Card
+                            hoverable
+                            style={{ width:100 }}
+                            cover={<img alt="example" src="https://cdn1.vectorstock.com/i/1000x1000/60/40/businessman-finding-job-with-magnifier-vector-15376040.jpg" />}
+                        >
+                            <Meta title="Model JAV Searcher" />
+                            <a href="https://dqbaoptit.github.io/jav" target="_blank"  rel="noopener noreferrer">Demo</a>
+                        </Card>
+                    </div>
+                    <div className="project-item" align="left">
+                        <strong>Link Github : </strong> <a href="https://github.com/dqbaoptit/jav" target="_blank"  rel="noopener noreferrer"> Model JAV Seacher</a>
+                        <h3>Mô tả :</h3>
+                        <br />
+                        <p>Sử dụng API của Toidicodedao.</p>
+                        <p>Áp dụng Debouce Searching</p>
+                        <p>Áp dụng Lazy loading</p>
+                        <h3 color="red">Có thể chứa nội dung 16+</h3>
+                    </div>
+                </div>
+            <hr id="line" />
+            <div className="project" >
                 <div className="project-item">
                     <Card
                         hoverable
-                        style={{ width:240 }}
+                        style={{ width:100 }}
                         cover={<img alt="example" src={snake} />}
                     >
                         <Meta title="Classic Snake" />
@@ -44,7 +66,7 @@ export default()=>{
                 <div className="project-item" align="center">
                     <Card
                         hoverable
-                        style={{ width:240 }}
+                        style={{ width:100 }}
                         cover={<img alt="example" src={gif} />}
                     >
                         <Meta title="Let's GIF" />
@@ -64,7 +86,7 @@ export default()=>{
                 <div className="project-item" align="center">
                     <Card
                         hoverable
-                        style={{ width:240 }}
+                        style={{ width:100 }}
                         cover={<img alt="example" src={music} />}
                     >
                         <Meta title="MP3 Player" />
@@ -81,34 +103,13 @@ export default()=>{
             </div>
             <hr id="line"/>
 
-            <div className="project" >
-                <div className="project-item" align="center">
-                    <Card
-                        hoverable
-                        style={{ width:240 }}
-                        cover={<img alt="example" src="https://cdn1.vectorstock.com/i/1000x1000/60/40/businessman-finding-job-with-magnifier-vector-15376040.jpg" />}
-                    >
-                        <Meta title="Model JAV Searcher" />
-                        <a href="https://dqbaoptit.github.io/jav" target="_blank"  rel="noopener noreferrer">Demo</a>
-                    </Card>
-                </div>
-                <div className="project-item" align="left">
-                    <strong>Link Github : </strong> <a href="https://github.com/dqbaoptit/jav" target="_blank"  rel="noopener noreferrer"> Model JAV Seacher</a>
-                    <h3>Mô tả :</h3>
-                    <br />
-                    <p>Sử dụng API của Toidicodedao.</p>
-                    <p>Áp dụng Debouce Searching</p>
-                    <p>Áp dụng Lazy loading</p>
-                    <h3 color="red">Có thể chứa nội dung 16+</h3>
-                </div>
-            </div>
-            <hr id="line" />
+           
 
             <div className="project" >
                 <div className="project-item" align="center">
                     <Card
                         hoverable
-                        style={{ width:240 }}
+                        style={{ width:100 }}
                         cover={<img alt="example" src="https://www.epmmagazine.com/downloads/6952/download/Automation%20concept.jpg?cb=174f59890b7416f88b2bb9180b10ca30&w=1000" />}
                     >
                         <Meta title="Tinder Auto Swiper" />
@@ -128,7 +129,7 @@ export default()=>{
                 <div className="project-item" align="center">
                     <Card
                         hoverable
-                        style={{ width:240 }}
+                        style={{ width:100 }}
                         cover={<img alt="example" src="https://www.bravo.com.vn/Uploads/_images/Online/SEO/Xuyen_D5.jpg" />}
                     >
                         <Meta title="Quản lý sinh viên" />
