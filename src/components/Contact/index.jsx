@@ -22,7 +22,7 @@ export default ()=>{
             <div className="info-container">
                 <div className="info" align="left">
                     <BankOutlined />
-                    <p>Học Information Technology <p><strong> Học viện Công nghệ Bưu chính Viễn thông cơ sở tại TP.HCM </strong></p></p>
+                    <p>Công nghệ thông tin <br/> <strong> Học viện Công nghệ Bưu chính Viễn thông cơ sở tại TP.HCM </strong></p>
                 </div>
                 <div className="info">
                         <FacebookOutlined />

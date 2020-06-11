@@ -8,10 +8,11 @@
 
 .logo {
     margin-top: 3rem;
-    cursor: pointer;
     width: 140px;
     height: 140px;
     overflow: visible;
+    overflow: hidden;
+    cursor: none;
 }
 
 .logo__mainGroup {
@@ -71,7 +72,7 @@
 }
 
 .logo__stroke {
-    stroke: rgb(63, 6, 63);
+    stroke: rgb(117, 43, 151);
     stroke-dasharray: 600, 600;
     stroke-dashoffset: 600;
     -webkit-animation: strokeAnim 9s 1s ease-in-out infinite;
@@ -79,7 +80,8 @@
 }
 
 .logo__fill {
-    stroke: rgb(63, 6, 63);
+    opacity: 0.6;
+    stroke: #752b97;
     stroke-dasharray: 290, 290;
     stroke-dashoffset: 290;
     -webkit-animation: fillAnim 9s 1s infinite;

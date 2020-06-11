@@ -12,11 +12,11 @@ import './index.css'
 			<div className="landing">
 				<AnchorLink href={props.to}>
 					<div className="landing-content" align="center">
-						<button class="button">
-							<h3>Hi, I'm <strong>Quoc Bao</strong>.</h3>
-							<p>I'm  a</p> <h3>Front-end Developer.</h3>
-							<div class="button__horizontal"></div>
-							<div class="button__vertical"></div>
+						<button className="button">
+							<h3>Hi, I'm <strong style={{fontSize:30}}>Quoc Bao</strong>.</h3>
+							<p style={{color:"#fff"}}>I'm  a</p> <h3>Front-end Developer.</h3>
+							<div className="button__horizontal"></div>
+							<div className="button__vertical"></div>
 						</button>
 					</div>
 				</AnchorLink>

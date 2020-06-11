@@ -2,13 +2,14 @@
     display: flex;
     justify-content: space-around;
     width: 100vw;
-    height: 105vh;
+    height: 100vh;
     overflow: hidden;
     cursor: none;
+    font-family: 'Sriracha', cursive;
 }
 
 .landing-container {
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(19, 18, 18);
 }
 
 .arr-but {
@@ -17,7 +18,7 @@
 
 .landing-content {
     margin-top: 7.85rem;
-    border: solid 2px #740c81;
+    border: solid 2px #752b97;
     padding: 0.3rem
 }
 
@@ -30,4 +31,10 @@
 .landing-content h3 strong {
     font-size: 1.5rem;
     color: #740c81;
+    transition: ease-in-out 0.5s;
+}
+
+.landing-content h3 strong:hover {
+    font-size: 1.6rem;
+    color: #ac11c0;
 }

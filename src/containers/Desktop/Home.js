@@ -51,7 +51,7 @@ return (
 					<div className="post">
 						<Poster type='exper' time="tháng 9 năm 2018 đến nay" title="Kinh nghiệm"/>
 					</div>
-					<div className="post">
+					<div className="post" style={{marginBottom:20}}>
 						<Poster  type='skills' time="tháng 9 năm 2018 đến nay" title="Kỹ năng"/>
 					</div>
 				</div>

@@ -1,6 +1,6 @@
 .arrow {
     position: absolute;
-    top: 80%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -9,8 +9,8 @@
     display: block;
     width: 30px;
     height: 30px;
-    border-bottom: 10px solid #fff;
-    border-right: 10px solid #fff;
+    border-bottom: 10px solid #064d63;
+    border-right: 10px solid #064d63;
     transform: rotate(45deg);
     margin: -10px;
     animation: animate 1.5s infinite;
