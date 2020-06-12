@@ -38,3 +38,10 @@
     font-size: 1.6rem;
     color: #ac11c0;
 }
+
+@media screen and (max-width: 400px) {
+    .landing-content h3 {
+        margin: .3rem;
+        font-size: 1rem;
+    }
+}
